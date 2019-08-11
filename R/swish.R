@@ -46,7 +46,7 @@
 #'
 #' Anqi Zhu, Avi Srivastava, Joseph G Ibrahim, Rob Patro, Michael I Love
 #' "Nonparametric expression analysis using inferential replicate counts"
-#' bioRxiv (2019).
+#' Nucleic Acids Research (2019).
 #' 
 #' The \code{swish} method builds upon the \code{SAMseq} method,
 #' and extends it by incorporating inferential uncertainty.
