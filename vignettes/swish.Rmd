@@ -770,17 +770,6 @@ y <- swish(y, x="condition")
 Note that `scaleInfReps` has an argument `sfFun` which allows the user
 to provide their own size factor calculation function. One could use
 `computeSumFactors` in the *scran* package for example. 
-The code chunk below is the `"poscounts"` size factor estimation
-function that was used in the *Swish* paper, because we felt this
-would outperform the default median ratio method used in `swish`.
-
-```{r eval=FALSE}
-sfFun <- function(m) {
-  DESeq2::estimateSizeFactorsForMatrix(
-            m, geoMeans=exp(rowSums(log(m) * as.numeric(m > 0))/ncol(m))
-          )
-}
-```
 
 ## Permutation schemes for interactions
 
