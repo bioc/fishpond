@@ -1,4 +1,4 @@
-# fishpond 2.6.1
+# fishpond 2.6.2
 
 * Corrected a bug in the two-group interaction (without pairing)
   functionality, when the groups were imbalanced, as identified by
